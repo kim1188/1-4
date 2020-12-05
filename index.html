@@ -3,12 +3,11 @@
     <head>
         <title>1학년 4반 시간표</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta property="og:title" content="1학년 4반 시간표">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
         <style>
-            h1{
+            .제목{
                 font-family: 'Nanum Gothic', serif;
                 font-size:40px
             }
@@ -20,15 +19,25 @@
                 font-family: 'Nanum Gothic', serif;
                 font-size:20px
             }
+            .요일{
+                font-family: 'Nanum Gothic', serif;
+                font-size:23px;
+                color:coral
+            }
             a { text-decoration:none; }
             a:link { color: black; text-decoration: none;}
             a:visited { color: black; text-decoration: none;}
-            a:hover { color: hotpink; text-decoration: underline;}
+            a:hover { color:coral; text-decoration: none;}
         </style>
     </head>
     <body>
         <center> 
-        <h1>1학년 4반 시간표</h1>     
+        <h1 class="제목">1학년 4반 시간표</h1>
+        <p class="요일"><script type="text/javascript">
+            var today = new Date();
+            var week = new Array('일', '월', '화', '수', '목', '금', '토')
+            document.write ("오늘 요일 : ", week[today.getDay()], "요일")
+        </script></p>
         <hr>
         <h3>수업 변동은 컴시간을 통해 확인해주세요</h3>
         <h3>월요일</h3>

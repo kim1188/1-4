@@ -76,6 +76,8 @@
             <hr><h3>학교 홈페이지</h3>
             <a href="http://wiryehanbit.hs.kr/main.phpp">한빛고 홈페이지</a><!--한빛고-->
             <br><br>
+            <image src="시간표.png"></image>
+            <image src="과목.png"></image>
         </center>
     </body>
 </html>
